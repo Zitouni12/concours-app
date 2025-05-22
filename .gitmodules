@@ -1,0 +1,6 @@
+[submodule "frontend-fst"]
+	path = frontend-fst
+	url = https://github.com/MerzoukHafsa/frontend-fst.git
+[submodule "fst-front-admin-Concours"]
+	path = fst-front-admin-Concours
+	url = https://github.com/Zitouni12/fst-front-admin-Concours.git
