@@ -1,55 +1,63 @@
-
-```markdown
-# Application de Gestion de Concours - Projet Central
-
-Ce dépôt centralise les deux interfaces frontend de l'application de gestion de concours universitaire, permettant de gérer à la fois l’espace candidat et l’espace administrateur.
+````markdown
+# Projet Application de Gestion de Concours
 
 ---
 
-## Structure du projet
+## Présentation du projet
 
-```
+Ce projet est une **application de gestion de concours universitaire** développée dans le cadre de notre formation à la Faculté des Sciences et Technologies.  
+Elle permet de gérer les inscriptions, le suivi et l’organisation des concours d’admission via deux interfaces principales :
 
-concours-app/
-├── frontend-fst/                # Interface Espace Candidat (React.js)
-├── fst-front-admin-Concours/   # Interface Espace Admin (React.js + Material UI)
-└── README.md                   # Ce fichier
-
-````
-
-Chaque dossier correspond à un sous-module Git, pointant vers un dépôt distinct.
+- **Espace Candidat** : Pour consulter les concours, s’inscrire et suivre son dossier.
+- **Espace Administrateur** : Pour gérer les phases du concours, les candidats et les résultats.
 
 ---
 
-## Prérequis
+## Notre équipe
 
-Avant de lancer les projets, assurez-vous d'avoir installé :
+Ce projet a été réalisé par un groupe de **trois étudiants** :
 
-- [Node.js](https://nodejs.org/) (version 18 ou plus recommandée)
-- [Git](https://git-scm.com/)
-- Un gestionnaire de paquets : `npm` (inclus avec Node.js) ou `yarn`
+| Nom complet        | Rôle dans le projet         | GitHub                       |
+|--------------------|----------------------------|------------------------------|
+| Hafsa Merzouk      | Développeuse frontend       | [MerzoukHafsa](https://github.com/MerzoukHafsa)    |
+| Zitouni            | Développeur frontend admin  | [Zitouni12](https://github.com/Zitouni12)          |
+| [Nom du 3ᵉ étudiant] | [Rôle ou contribution]      | [Lien GitHub]                 |
 
 ---
 
-## Installation et lancement
+## Objectif du dépôt
 
-### 1. Cloner le projet central avec les sous-modules
+Ce dépôt centralise l’ensemble du frontend de l’application via des sous-modules Git pointant vers les dépôts spécifiques à chaque interface :  
 
-Ouvrez un terminal et exécutez :
+- `frontend-fst/` : l’espace candidat (React.js)  
+- `fst-front-admin-Concours/` : l’espace administrateur (React.js + Material UI)  
 
+Le backend Laravel est disponible dans un autre dépôt indépendant.
+
+---
+
+## Instructions pour lancer le projet
+
+### Prérequis
+
+- Installer [Node.js](https://nodejs.org/) (version 18 ou plus recommandée)  
+- Installer [Git](https://git-scm.com/)  
+- Utiliser `npm` (inclus avec Node.js) ou `yarn` pour la gestion des dépendances  
+
+---
+
+### Étapes d’installation
+
+1. **Cloner ce dépôt et ses sous-modules**  
 ```bash
 git clone https://github.com/Zitouni12/concours-app.git
 cd concours-app
 git submodule update --init --recursive
 ````
 
-Cette commande va récupérer les deux sous-modules et les placer dans les dossiers `frontend-fst` et `fst-front-admin-Concours`.
+2. **Installer les dépendances et lancer les applications**
 
----
-
-### 2. Installation des dépendances et lancement des interfaces
-
-#### Espace Candidat
+* Espace Candidat :
 
 ```bash
 cd frontend-fst
@@ -57,14 +65,10 @@ npm install
 npm run dev
 ```
 
-L’interface sera accessible à l’adresse :
-`http://localhost:5173` (par défaut)
+L’application sera accessible à l’adresse : `http://localhost:5173`
 
----
-
-#### Espace Administrateur
-
-Ouvrez un nouveau terminal ou onglet, puis :
+* Espace Administrateur :
+  Dans un autre terminal :
 
 ```bash
 cd fst-front-admin-Concours
@@ -72,14 +76,13 @@ npm install
 npm run dev
 ```
 
-L’interface sera accessible à l’adresse :
-`http://localhost:5174` (ou un autre port libre)
+L’application sera accessible à l’adresse : `http://localhost:5174` (ou autre port libre)
 
 ---
 
 ## Mise à jour des sous-modules
 
-Pour mettre à jour les sous-modules si leurs dépôts ont évolué :
+Pour récupérer les dernières modifications des sous-modules :
 
 ```bash
 git submodule foreach git pull origin main
@@ -87,17 +90,24 @@ git submodule foreach git pull origin main
 
 ---
 
-## A propos
+## Remarques
 
-Ce projet est développé par les étudiants de la Faculté des Sciences et Technologies.
-Il permet de gérer de manière centralisée le déroulement des concours d’admission, avec une interface dédiée aux candidats et une autre pour les administrateurs.
+* Ce dépôt sert de base pour démontrer le fonctionnement des deux frontends en vue d’une présentation au doyen de la faculté.
+* Le backend Laravel est à déployer séparément selon les instructions fournies dans son dépôt dédié.
+
+---
+
+## Remerciements
+
+Nous remercions notre professeur pour son accompagnement tout au long de ce projet.
 
 ---
 
 ## Contact
 
 * Hafsa Merzouk – [GitHub](https://github.com/MerzoukHafsa)
-* Zitouni – [GitHub](https://github.com/Zitouni12)
+* Zitouni Safia – [GitHub](https://github.com/Zitouni12)
+* Moulim Hasnae – \[Lien GitHub]
 
 ---
 
@@ -109,7 +119,4 @@ Ce projet est distribué sous licence MIT.
 
 ---
 
-Tu peux copier-coller ce contenu dans un fichier `README.md` à la racine de ton repo `concours-app`.
-
-Veux-tu aussi que je t’aide à faire un README spécifique pour le backend Laravel ou autre chose ?
 ```
