@@ -18,10 +18,9 @@ Ce projet a été réalisé par un groupe de **trois étudiants** :
 
 | Nom complet        | Rôle dans le projet         | GitHub                       |
 |--------------------|----------------------------|------------------------------|
-| Hafsa Merzouk      | Développeuse frontend       | [MerzoukHafsa](https://github.com/MerzoukHafsa)    |
-| Zitouni            | Développeur frontend admin  | [Zitouni12](https://github.com/Zitouni12)          |
-| [Nom du 3ᵉ étudiant] | [Rôle ou contribution]      | [Lien GitHub]                 |
-
+| Hafsa Merzouk      | Développeuse full stack       | [MerzoukHafsa](https://github.com/MerzoukHafsa)    |
+| Zitouni Safia            | Développeuse full stack  | [Zitouni12](https://github.com/Zitouni12)          |
+| Moulim Hsanae | Développeuse full stack     | [hasnaemoulim](https://github.com/hasnaemoulim)   
 ---
 
 ## Objectif du dépôt
