@@ -8,34 +8,26 @@ Ce projet est une **application de gestion de concours universitaire** développ
 Elle permet de gérer les inscriptions, le suivi et l’organisation des concours d’admission via deux interfaces principales :
 
 - **Espace Candidat** : Pour consulter les concours, s’inscrire et suivre son dossier.
-- **Espace Administrateur** : Pour gérer les phases du concours, les candidats et les résultats.
+- **Espace Administrateur** : Pour gérer la création et la publication de concours, la creation de formulaire asocié a chaque concours, gérer les phases du concours (candidature , epreuve ecrit , epreuve oral), les candidats et les résultats.
 
 ---
 
-## Notre équipe
 
-Ce projet a été réalisé par un groupe de **trois étudiants** :
-
-| Nom complet        | Rôle dans le projet         | GitHub                       |
-|--------------------|----------------------------|------------------------------|
-| Hafsa Merzouk      | Développeuse full stack       | [MerzoukHafsa](https://github.com/MerzoukHafsa)    |
-| Zitouni Safia            | Développeuse full stack  | [Zitouni12](https://github.com/Zitouni12)          |
-| Moulim Hsanae | Développeuse full stack     | [hasnaemoulim](https://github.com/hasnaemoulim)   
 ---
 
 ## Objectif du dépôt
 
-Ce dépôt centralise l’ensemble du frontend de l’application via des sous-modules Git pointant vers les dépôts spécifiques à chaque interface :  
+Ce dépôt centralise l’ensemble de l’application via des sous-modules Git pointant vers les dépôts spécifiques à chaque interface :  
 
-- `frontend-fst/` : l’espace candidat (React.js)  
-- `fst-front-admin-Concours/` : l’espace administrateur (React.js + Material UI)  
+- `frontend-fst/` : il contient le frontend et backend de l espace candidat et aussi le backend de l espace administrateur (dans meme dossier backend) (React.js + Material UI + laravel)  
+- `fst-front-admin-Concours/` : l’espace administrateur au niveau frontend (React.js + Material UI)  
 
 Le backend Laravel est disponible dans un autre dépôt indépendant.
 
 ---
 
 ## Instructions pour lancer le projet
-
+ ## rediger moi ces prerequis  d une manier plus claire 
 ### Prérequis
 
 - Installer [Node.js](https://nodejs.org/) (version 18 ou plus recommandée)  
@@ -43,7 +35,8 @@ Le backend Laravel est disponible dans un autre dépôt indépendant.
 - Utiliser `npm` (inclus avec Node.js) ou `yarn` pour la gestion des dépendances  
 
 ---
-
+#### pour ces etapes d installation il y a un probleme pour  `fst-front-admin-Concours/ " se run sur  `http://localhost:5173` avec npm run dev 
+  et pou`frontend-fst/ il contient deux dossiers backend pour backend : php artisan serve  et frontend npm start 
 ### Étapes d’installation
 
 1. **Cloner ce dépôt et ses sous-modules**  
@@ -88,10 +81,6 @@ git submodule foreach git pull origin main
 
 ---
 
-## Remarques
-
-* Ce dépôt sert de base pour démontrer le fonctionnement des deux frontends en vue d’une présentation au doyen de la faculté.
-* Le backend Laravel est à déployer séparément selon les instructions fournies dans son dépôt dédié.
 
 ---
 
@@ -101,11 +90,15 @@ Nous remercions notre professeur pour son accompagnement tout au long de ce proj
 
 ---
 
-## Contact
+## Notre équipe
 
-* Hafsa Merzouk – [GitHub](https://github.com/MerzoukHafsa)
-* Zitouni Safia – [GitHub](https://github.com/Zitouni12)
-* Moulim Hasnae – [GitHub](https://github.com/hasnaemoulim)
+Ce projet a été réalisé par un groupe de **trois étudiants** :
+
+| Nom complet        | Rôle dans le projet         | GitHub                       |
+|--------------------|----------------------------|------------------------------|
+| Hafsa Merzouk      | Développeuse full stack       | [MerzoukHafsa](https://github.com/MerzoukHafsa)    |
+| Zitouni Safia            | Développeuse full stack  | [Zitouni12](https://github.com/Zitouni12)          |
+| Moulim Hsanae | Développeuse full stack     | [hasnaemoulim](https://github.com/hasnaemoulim)   
 
 ---
 
@@ -118,3 +111,4 @@ Ce projet est distribué sous licence MIT.
 ---
 
 ```
+##Rerediger moi ce readme pour expliquer en detail comment runner mon projet a partir de cette repo etape apr etape comme tu explique pour un debuatnat tous les commandes les installations necessaires 
