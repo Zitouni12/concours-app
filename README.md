@@ -1,4 +1,4 @@
-````markdown
+````
 # Projet Application de Gestion de Concours
 
 ---
@@ -107,7 +107,7 @@ Nous remercions notre professeur pour son accompagnement tout au long de ce proj
 
 * Hafsa Merzouk – [GitHub](https://github.com/MerzoukHafsa)
 * Zitouni Safia – [GitHub](https://github.com/Zitouni12)
-* Moulim Hasnae – \[Lien GitHub]
+* Moulim Hasnae – [GitHub](https://github.com/hasnaemoulim)
 
 ---
 
