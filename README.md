@@ -1,4 +1,3 @@
-````
 # Projet Application de Gestion de Concours
 
 ---
