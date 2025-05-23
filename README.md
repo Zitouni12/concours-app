@@ -70,7 +70,7 @@ php artisan serve
 Dans un **nouveau terminal** :
 
 ```bash
-cd frontend-fst
+cd frontend-fst/frontend
 npm install
 npm start
 ```
