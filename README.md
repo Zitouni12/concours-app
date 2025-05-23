@@ -72,7 +72,7 @@ Dans un **nouveau terminal** :
 ```bash
 cd frontend-fst
 npm install
-npm run dev
+npm start
 ```
 
 🔗 Le frontend sera accessible à l'adresse : [http://localhost:5173](http://localhost:5173)
