@@ -93,6 +93,10 @@ npm run dev
 (ou un autre port libre si 5174 est déjà utilisé)
 
 ---
+## Accès direct aux interfaces
+
+- [Frontend Candidat - branche main](https://github.com/MerzoukHafsa/frontend-fst/tree/main)
+- [Frontend Administrateur - branche main](https://github.com/Zitouni12/fst-front-admin-Concours/tree/main)
 
 ## 🔄 Mise à jour des sous-modules
 
